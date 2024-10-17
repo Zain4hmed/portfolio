@@ -66,7 +66,7 @@ function App() {
       {/* Skills Section */}
       <section id="skills" className="skills py-5 bg-light">
         <div className="container">
-          <h2>Skills</h2>
+          <h2><i className="fa-brands fa-connectdevelop" /> Skills</h2>
           <ul className="list-inline">
             <li className="list-inline-item p-2">JavaScript</li>
             <li className="list-inline-item p-2">React</li>
@@ -81,7 +81,7 @@ function App() {
       {/* Projects Section */}
       <section id="projects" className="projects py-5">
         <div className="container">
-          <h2>Projects</h2>
+          <h2><i className="fa-brands fa-codepen"></i> Projects</h2>
           <div className="row">
             <div className="col-md-4 mb-3">
               <div className="card">
