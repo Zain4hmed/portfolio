@@ -1,0 +1,17 @@
+.blinking-cursor {
+    display: inline-block;
+    width: 10px; /* Width of the cursor */
+    background-color: #000; /* Cursor color */
+    animation: blink 0.7s infinite; /* Blinking effect */
+    margin-left: 2px; /* Spacing between text and cursor */
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1; /* Fully visible */
+    }
+    50% {
+      opacity: 0; /* Fully transparent */
+    }
+  }
+  

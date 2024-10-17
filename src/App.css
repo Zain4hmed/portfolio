@@ -1,0 +1,45 @@
+.about-text {
+    text-align: justify; /* Justifies the text, making each line align on both sides */
+    margin-bottom: 1.5rem; /* Adds spacing between paragraphs */
+    line-height: 1.6; /* Increases line height for readability */
+    max-width: 750px; /* Set a maximum width to control line length */
+    margin-left: auto; /* Centers the element horizontally */
+    margin-right: auto; /* Centers the element horizontally */
+  }
+  .hero {
+    position: relative;
+    z-index: 1; /* Ensure content is above particles */
+    padding: 5rem 0; /* Adjust padding as needed */
+  }
+  
+  .hero {
+    background-image: url('C:\Users\zaina\ReachCourse\portfolio\src\image9.jpg'); /* Add your background image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff;
+  }
+
+  .hero.p-5 {
+    padding: 5rem !important; /* Override the Bootstrap padding */
+}
+
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+    z-index: 1;
+  }
+  
+  .hero .container, .hero h1, .hero p, .hero a {
+    position: relative;
+    z-index: 2;
+  }
+  
+  

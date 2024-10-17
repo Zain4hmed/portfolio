@@ -1,0 +1,26 @@
+/* HighlightText.css */
+
+.highlight-wrapper {
+  position: relative;
+  display: inline; /* Keep the text inline */
+  white-space: normal; /* Allow natural line wrapping */
+}
+
+.highlight-char {
+  position: relative;
+  display: inline-block; /* Ensure each character is inline but isolated */
+  white-space: pre-wrap;
+  z-index: 1; /* Text remains in the front */
+}
+
+.highlight-char.highlighted::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: yellow; /* Highlight color */
+  z-index: -1; /* Behind the text */
+  transition: background-color 0.3s ease-in-out;
+}
