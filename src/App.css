@@ -13,7 +13,7 @@
   }
   
   .hero {
-    background-image: url('.\stefen-tan-KYw1eUx1J7Y-unsplash.jpg'); /* Add your background image URL */
+    background-image: url('/stefen-tan-KYw1eUx1J7Y-unsplash.jpg'); /* Add your background image URL */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
