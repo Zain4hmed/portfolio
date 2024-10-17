@@ -62,19 +62,42 @@ function App() {
 
 
       {/* Skills Section */}
-      <section id="skills" className="skills py-5 bg-light">
-        <div className="container">
-          <h2><i className="fa-brands fa-connectdevelop" /> Skills</h2>
-          <ul className="list-inline">
-            <li className="list-inline-item p-2">JavaScript</li>
-            <li className="list-inline-item p-2">React</li>
-            <li className="list-inline-item p-2">Node.js</li>
-            <li className="list-inline-item p-2">CSS</li>
-            <li className="list-inline-item p-2">Spring Boot</li>
-            {/* Add more skills as needed */}
-          </ul>
-        </div>
-      </section>
+{/* Skills and Experience Section */}
+<section id="skills" className="skills-experience py-5 bg-light">
+  <div className="container">
+    <div className="row">
+      {/* Skills Column */}
+      <div className="col-md-6">
+        <h2><i className="fa-brands fa-connectdevelop" /> Skills</h2>
+        <ul className="list-inline">
+          <li className="list-inline-item p-2">JavaScript</li>
+          <li className="list-inline-item p-2">React</li>
+          <li className="list-inline-item p-2">Node.js</li>
+          <li className="list-inline-item p-2">CSS</li>
+          <li className="list-inline-item p-2">Spring Boot</li>
+          {/* Add more skills as needed */}
+        </ul>
+      </div>
+
+      {/* Experience Column */}
+      <div className="col-md-6">
+        <h2><i className="fa-solid fa-briefcase"></i> Experience</h2>
+        <ul className="list-inline">
+          <li className="list-inline-item p-2">
+            <strong>Tech Mahindra</strong> - Full Stack Developer
+            <br /><small>2023 - Present</small>
+          </li>
+          <li className="list-inline-item p-2">
+            <strong>Capgemini</strong> - Software Engineer
+            <br /><small>2021 - 2023</small>
+          </li>
+          {/* Add more experiences as needed */}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Projects Section */}
       <section id="projects" className="projects py-5">
