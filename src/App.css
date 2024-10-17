@@ -13,7 +13,7 @@
   }
   
   .hero {
-    background-image: url('C:\Users\zaina\ReachCourse\portfolio\src\image9.jpg'); /* Add your background image URL */
+    background-image: url('.\image9.jpg'); /* Add your background image URL */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
