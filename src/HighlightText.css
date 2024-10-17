@@ -20,7 +20,7 @@
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: yellow; /* Highlight color */
+  background-color: rgb(72, 255, 97); /* Highlight color */
   z-index: -1; /* Behind the text */
   transition: background-color 0.3s ease-in-out;
 }

@@ -38,17 +38,15 @@ function App() {
           In addition to my professional work in web and mobile development, I have a keen interest in programming microcontrollers and microprocessors like the Raspberry Pi as a hobby. I'm also a fitness enthusiast who tracks various fitness metrics, including sleep patterns. This sparked a personal project where I documented and analyzed the correlation between early bedtimes and deep sleep duration—something I plan to share in my blog.
         </p>
         <p className="about-text">
-          <HighlightText 
-  text="Currently, I work for an MNC in India. If you have any exciting ideas or projects to collaborate on, feel free to reach out! "
-          speed={40} />
+          Currently, I work for an MNC in India. If you have any exciting ideas or projects to collaborate on, feel free to reach out! 
         </p>
       </div>
       <div className="col-lg-6 col-md-6 d-flex justify-content-center align-items-center">
       <img 
   src={myPic} 
   alt="Zain" 
-  className="img-fluid rounded-circle" 
-  style={{ maxWidth: '80%' }} 
+  className="img-fluid custom-square" 
+  style={{ maxWidth: '70%' }} 
 />
 
 

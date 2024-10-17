@@ -42,4 +42,14 @@
     z-index: 2;
   }
   
+  .custom-square {
+    width: 350px;  /* Set a fixed width for the square */
+    height: 300px; /* Same as width for the square */
+    border-radius: 15px; /* Rounded square effect */
+    object-fit: cover; /* Ensures the image covers the container */
+    display: block; /* Ensure the image behaves like a block-level element */
+  }
+  
+  
+  
   
