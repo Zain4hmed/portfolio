@@ -25,7 +25,7 @@ const Navbar = () => {
     <nav className={`navbar navbar-expand-lg fixed-top ${scrolling ? 'scrolled' : ''}`}>
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <i className="fas fa-code"></i> Z A
+        <i class="fa-solid fa-address-card"></i>
         </a>
         <button
           className="navbar-toggler"
@@ -41,7 +41,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="collapsibleNavbar">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#about">About Me</a>
+              <a className="nav-link" href="#about">About</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#projects">Projects</a>

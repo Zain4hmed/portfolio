@@ -23,15 +23,16 @@ function App() {
       {/* About Me Section */}
       <section id="about" className="about text-center py-5">
   <div className="container">
-    <h2>About Me</h2>
+    {/* <h2>About Me</h2> */}
     <div className="row justify-content-center">
       <div className="col-lg-6 col-md-6">
         <p className="about-text">
+        <h2><i class="fa-regular fa-user"></i> About</h2>
           I'm a full stack developer specializing in Java and Spring Boot for backend development, and React for the front end. I have a deep passion for problem-solving and thrive on optimizing-algorithms,{' '}
           <HighlightText 
   text="often pushing beyond traditional O(n) complexities to achieve the most efficient runtime solutions."
   speed={40} // Adjust the speed to your preference
-/>
+/> <i class="fa-solid fa-highlighter"></i>
 
         </p>
         <p className="about-text">
@@ -134,7 +135,7 @@ function App() {
         <div className="container text-center">
           <h2>Contact Me</h2>
           <p>If you'd like to work together, feel free to reach out via email or social media.</p>
-          <a href="mailto:youremail@example.com" className="btn btn-primary">Email Me</a>
+          <a href="zainahmed01997@gmail.com" className="btn btn-primary">Email Me</a>
         </div>
       </section>
     </div>
